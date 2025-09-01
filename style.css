@@ -1,0 +1,130 @@
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, rgb(240, 245, 255), rgb(255, 255, 255));
+  color: rgb(33, 33, 33);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 102, 204);
+  border-bottom: 2px solid rgb(0, 102, 204);
+  display: inline-block;
+  padding-bottom: 4px;
+  font-weight: 600;
+}
+.section-title i {
+  margin-right: 8px;
+  color: rgb(0, 102, 204);
+}
+
+/* Profile Image */
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgb(0, 102, 204);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Modal Image */
+.modal-content img {
+  max-width: 100%;
+  border-radius: 15px;
+  border: 4px solid rgb(0, 102, 204);
+}
+
+/* Card Style */
+.card {
+  border: none;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+.card-custom {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: rgb(0, 102, 204);
+  border-color: rgb(0, 102, 204);
+  border-radius: 30px;
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: rgb(0, 80, 160);
+}
+
+/* Skills */
+.progress {
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+}
+.progress-bar {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.badge {
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  margin: 3px;
+  border-radius: 20px;
+}
+
+/* Project Cards */
+.card-title {
+  font-weight: 600;
+  color: rgb(0, 102, 204);
+}
+.card-text {
+  font-size: 0.95rem;
+  color: rgb(70, 70, 70);
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  background: rgb(33, 33, 33);
+  color: white;
+  padding: 20px 0;
+}
+footer a {
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer i {
+  margin-right: 6px;
+  color: rgb(0, 153, 255);
+}
